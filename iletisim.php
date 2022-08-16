@@ -51,7 +51,7 @@
 		</div>
 	</div>
 
-	<a href="comment.php"><button style="margin-top: 20px;" type="submit" class="btn btn-secondary">Yorum Yap</button></a>
+	<a href="comment.php"><button style=" margin-left: 120px; " type="submit" class="btn btn-secondary">Yorum Yap</button></a>
 
 
 
