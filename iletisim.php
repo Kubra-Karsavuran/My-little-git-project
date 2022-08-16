@@ -31,6 +31,7 @@
 						<textarea name="mesajveri"  class="form-control" aria-label="With textarea"></textarea>
 					</div>
 					<button style="margin-top: 20px;" type="submit" class="btn btn-secondary">Gönder</button> 
+					<button style="margin-top: 20px;" type="submit" class="btn btn-secondary">Gönder</button> 
 				</form>
 			</div>
 			<!-- araya form konuldu -->
