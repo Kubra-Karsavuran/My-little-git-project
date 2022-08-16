@@ -9,8 +9,8 @@
 <body>
 
 
-	<div style="width: 100%;height: 70px;background-color: rgb(252, 228, 236) ;">
-		<h1 style=" color: grey;text-align: center; " > <i>İLETİŞİM FORM</i> </h1>
+	<div style="width: 100%;height: 70px;background-color: rgb(197, 202, 233) ;">
+		<h1 style=" color: grey;text-align: center; " > <i>YORUM SAYFASI</i> </h1>
 	</div>
 
 
@@ -18,9 +18,13 @@
 		<div class="row"> 
 			<!-- form konuldu alt tarafa  --> 
 			<div class="col-6">
-				<form action="iletisimYansit.php" method="POST">
+				<form action="commentYansit.php" method="POST">
 					<div>
-						<h4 style="color: grey; text-align: center;padding-bottom: 20px; ">FORMU DOLDURUNUZ</h4>
+						<h4 style="color: grey; text-align: center;padding-bottom: 20px; ">YORUM YAPIN</h4>
+					</div>
+					<div class="input-group mb-3">
+						<span class="input-group-text" id="basic-addon3">Name</span>
+						<input name="nameveri" type="email" class="form-control" id="basic-url" aria-describedby="basic-addon3">
 					</div>  
 					<div class="input-group mb-3">
 						<span class="input-group-text" id="basic-addon3">Email</span>
