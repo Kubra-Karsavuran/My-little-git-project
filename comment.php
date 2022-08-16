@@ -43,7 +43,7 @@
 			<!-- card konuldu alt tarafa  -->
 			<div style=" text-align: center;padding-left: 200px;  " class="col-6">
 				<div class="card" style="width: 18rem;">
-					<img src="http://www.askmasali.com/manzararesimleri/manzara9.jpg" class="card-img-top" alt="...">
+					<img src="https://stringfixer.com/files/22651978.jpg" class="card-img-top" alt="...">
 					<div class="card-body"> 
 						<p class="card-text">Teşekkürler....</p> 
 					</div>
