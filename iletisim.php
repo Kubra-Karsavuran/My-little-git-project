@@ -18,7 +18,7 @@
 		<div class="row"> 
 			<!-- form konuldu alt tarafa  --> 
 			<div class="col-6">
-				<form action="iletyansit.html" method="POST">
+				<form action="iletisimYansit.php" method="POST">
 					<div>
 						<h4 style="color: grey; text-align: center;padding-bottom: 20px; ">FORMU DOLDURUNUZ</h4>
 					</div>  
