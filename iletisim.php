@@ -31,9 +31,10 @@
 						<textarea name="mesajveri"  class="form-control" aria-label="With textarea"></textarea>
 					</div>
 					<button style="margin-top: 20px;" type="submit" class="btn btn-secondary">Gönder</button> 
-					<button style="margin-top: 20px;" type="submit" class="btn btn-secondary">Gönder</button> 
+
 				</form>
 			</div>
+
 			<!-- araya form konuldu -->
 
 
@@ -49,6 +50,8 @@
 			<!-- araya card konuldu  --> 
 		</div>
 	</div>
+
+	<a href="comment.php"><button style="margin-top: 20px;" type="submit" class="btn btn-secondary">Yorum Yap</button></a>
 
 
 
