@@ -7,26 +7,35 @@
 </head>
 <body>
 
-	<div style="width: 50%; height: 200px; background-color: pink; margin-left: 25%;  ">
-		
+	<div style="width: 50%; height: 250px; background-color: pink; margin-left: 25%;  ">
 		<h1 style=" text-align: center; color: grey; " >VERİLER</h1>
-	</div>
 
-
-	<div>
-		<h1>
-			<?php 
-			if ( isset($_POST['emailveri']) ) {
-				$emailveri=$_POST['emailveri'];
+		<div>
+			<h1 style="color: brown;padding-left: 20px; ">
+				<?php 
+				if ( isset($_POST['emailveri']) ) {
+					$emailveri=$_POST['emailveri'];
+					echo "email:".$emailveri; 
+				}
+				?>
+			</h1>
+			<br> 
+			<h1 style="color: brown;padding-left: 20px; ">
+				<?php 
 				if (isset($_POST['mesajveri'])) {
 					$mesajveri=$_POST['mesajveri'];
-
-					echo "email:".$emailveri."mesaj:".$mesajveri;
+					echo "mesaj:".$mesajveri;
 				}
-			}
-			?>
-		</h1>
+				?>
+			</h1>
+		</div>
+
+
+
 	</div>
+
+
+	
 
 </body>
 </html> 
